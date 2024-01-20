@@ -1,11 +1,10 @@
 package projeto;
 
 public class Heroi implements ComponenteHeroi{
-    public String nomeHeroi;
-    public String classeHeroi;
-    public String racaHeroi;
-
-    public int nivelHeroi;
+    private String nomeHeroi;
+    private String classeHeroi;
+    private String racaHeroi;
+    private int nivelHeroi;
 
     public Heroi(String nomeHeroi, String classeHeroi,String racaHeroi,int nivelHeroi) {
         this.nomeHeroi = nomeHeroi;
